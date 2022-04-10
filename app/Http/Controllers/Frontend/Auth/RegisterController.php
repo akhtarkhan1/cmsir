@@ -4,9 +4,10 @@ namespace App\Http\Controllers\Frontend\Auth;
 
 use App\Events\Frontend\Auth\UserRegistered;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\RegisterRequest;
+use Http\Requests\Frontend\Auth\RegisterRequest;
 use App\Repositories\Frontend\Auth\UserRepository;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\Request;
 
 /**
  * Class RegisterController.
@@ -58,8 +59,8 @@ class RegisterController extends Controller
      * @throws \Throwable
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
-    public function register(RegisterRequest $request)
-    {
+    public function register(Request $request)
+    {   
         abort_unless(config('access.registration'), 404);
 
         $user = $this->userRepository->create($request->only('first_name', 'last_name', 'email', 'password'));

@@ -1,9 +1,24 @@
-@extends('frontend.layouts.app')
+@extends('frontend.layouts.master')
 
 @section('title', app_name() . ' | ' . __('labels.frontend.auth.login_box_title'))
 
 @section('content')
-    <div class="row justify-content-center align-items-center">
+
+    <section class="page-title bg-1">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <div class="block text-center">
+            <span class="text-white">Login</span>
+            <h1 class="text-capitalize mb-5 text-lg">Login Here</h1>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <div class="row justify-content-center align-items-center" style="margin-top: 50px;">
         <div class="col col-sm-8 align-self-center">
             <div class="card">
                 <div class="card-header">

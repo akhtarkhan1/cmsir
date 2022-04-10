@@ -302,6 +302,58 @@ return [
             'button' => 'Send Information',
         ],
 
+        'about' => [
+            'box_title' => 'About Us',
+        ],
+
+        'crew_schedule' => [
+            'box_title' => 'Crew Schedule',
+        ], 
+
+        'crew_status' => [
+            'box_title' => 'Crew Status',
+        ], 
+
+        'training' => [
+            'box_title' => 'Training',
+        ], 
+
+        'vacation' => [
+            'box_title' => 'Vacation',
+        ], 
+
+        'medical' => [
+            'box_title' => 'Medical',
+        ], 
+
+        'photoGallery' => [
+            'box_title' => 'Photo Gallery',
+        ], 
+
+        'locoPilot' => [
+            'box_title' => 'Loco Pilot',
+        ], 
+
+        'assistantPilot' => [
+            'box_title' => 'Assistant Pilot',
+        ], 
+
+        'guards' => [
+            'box_title' => 'Guards',
+        ], 
+
+        'shunters' => [
+            'box_title' => 'Shunters',
+        ],
+
+        'traintype' => [
+            'box_title' => 'Train Type',
+        ],
+
+        'trainparts' => [
+            'box_title' => 'Train Parts',
+        ],
+
         'passwords' => [
             'expired_password_box_title' => 'Your password has expired.',
             'forgot_password' => 'Forgot Your Password?',
