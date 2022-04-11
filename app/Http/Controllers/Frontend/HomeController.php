@@ -47,11 +47,44 @@ class HomeController extends Controller
         return view('frontend.pages.medical');
     }
 
-    
     public function photoGallery()
     {
         return view('frontend.pages.photogallery');
     }
+
+    public function locoPilot()
+    {
+        return view('frontend.pages.locoPilot');
+    }
+
+    public function assistantLocoPilot()
+    {
+        return view('frontend.pages.assistantLocoPilot');
+    }
+
+    public function guard()
+    {
+        return view('frontend.pages.guard');
+    }
+
+    public function shunters()
+    {
+        return view('frontend.pages.shunters');
+    }
+    
+
+    public function trainTypes()
+    {
+        return view('frontend.pages.trainTypes');
+    }
+    
+
+    public function trainParts()
+    {
+        return view('frontend.pages.trainParts');
+    }
+    
+    
 
     
 }

@@ -21,10 +21,12 @@ Route::get('training', [HomeController::class, 'training'])->name('training');
 Route::get('vacation', [HomeController::class, 'vacation'])->name('vacation');
 Route::get('medical', [HomeController::class, 'medical'])->name('medical');
 Route::get('photo-gallery', [HomeController::class, 'photoGallery'])->name('photoGallery');
-Route::get('medical', [HomeController::class, 'medical'])->name('medical');
-Route::get('medical', [HomeController::class, 'medical'])->name('medical');
-Route::get('medical', [HomeController::class, 'medical'])->name('medical');
-Route::get('medical', [HomeController::class, 'medical'])->name('medical');
+Route::get('loco-pilot', [HomeController::class, 'locoPilot'])->name('locoPilot');
+Route::get('assistant-loco-pilot', [HomeController::class, 'assistantLocoPilot'])->name('assistantLocoPilot');
+Route::get('guard', [HomeController::class, 'guard'])->name('guard');
+Route::get('shunters', [HomeController::class, 'shunters'])->name('shunters');
+Route::get('train-types', [HomeController::class, 'trainTypes'])->name('trainTypes');
+Route::get('train-parts', [HomeController::class, 'trainParts'])->name('trainParts');
 
 
 

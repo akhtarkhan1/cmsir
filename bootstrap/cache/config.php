@@ -74,7 +74,7 @@
   'app' => 
   array (
     'read_only' => false,
-    'name' => 'CMSIR',
+    'name' => 'Laravel Starter',
     'env' => 'local',
     'debug' => true,
     'testing' => false,
@@ -85,7 +85,7 @@
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
     'locale_php' => 'en_US',
-    'key' => 'base64:lgApBHPZSPGEsA8lp1UmQtSDDn++mYfM4pC2pdby6K4=',
+    'key' => 'base64:yPzn38KsG3icUGQQoJfhzQTrNuCl8shfkishiign0Nc=',
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (
@@ -202,7 +202,7 @@
   'breadcrumbs' => 
   array (
     'view' => 'backend.includes.partials.breadcrumbs',
-    'files' => 'C:\\xampp\\htdocs\\cmsir\\routes/breadcrumbs.php',
+    'files' => '/home/users/akhtar.khan/www/html/cmsir/routes/breadcrumbs.php',
     'unnamed-route-exception' => true,
     'missing-route-bound-breadcrumb-exception' => true,
     'invalid-named-breadcrumb-exception' => true,
@@ -263,7 +263,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\xampp\\htdocs\\cmsir\\storage\\framework/cache/data',
+        'path' => '/home/users/akhtar.khan/www/html/cmsir/storage/framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -302,7 +302,7 @@
         'endpoint' => NULL,
       ),
     ),
-    'prefix' => 'cmsir_cache',
+    'prefix' => 'laravel_starter_cache',
   ),
   'database' => 
   array (
@@ -325,7 +325,7 @@
         'port' => '3306',
         'database' => 'cmsir',
         'username' => 'root',
-        'password' => '',
+        'password' => 'webkul',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
@@ -345,7 +345,7 @@
         'port' => '3306',
         'database' => 'cmsir',
         'username' => 'root',
-        'password' => '',
+        'password' => 'webkul',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -360,7 +360,7 @@
         'port' => '3306',
         'database' => 'cmsir',
         'username' => 'root',
-        'password' => '',
+        'password' => 'webkul',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -373,7 +373,7 @@
       'options' => 
       array (
         'cluster' => 'redis',
-        'prefix' => 'cmsir_database_',
+        'prefix' => 'laravel_starter_database_',
       ),
       'default' => 
       array (
@@ -455,7 +455,7 @@
     array (
       'enabled' => true,
       'driver' => 'file',
-      'path' => 'C:\\xampp\\htdocs\\cmsir\\storage\\debugbar',
+      'path' => '/home/users/akhtar.khan/www/html/cmsir/storage/debugbar',
       'connection' => NULL,
       'provider' => '',
     ),
@@ -549,12 +549,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\xampp\\htdocs\\cmsir\\storage\\app',
+        'root' => '/home/users/akhtar.khan/www/html/cmsir/storage/app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\xampp\\htdocs\\cmsir\\storage\\app/public',
+        'root' => '/home/users/akhtar.khan/www/html/cmsir/storage/app/public',
         'url' => 'http://localhost/cmsir/public/storage',
         'visibility' => 'public',
       ),
@@ -579,7 +579,7 @@
       'maxmind_database' => 
       array (
         'class' => 'Torann\\GeoIP\\Services\\MaxMindDatabase',
-        'database_path' => 'C:\\xampp\\htdocs\\cmsir\\storage\\app/geoip.mmdb',
+        'database_path' => '/home/users/akhtar.khan/www/html/cmsir/storage/app/geoip.mmdb',
         'update_url' => 'https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz',
         'locales' => 
         array (
@@ -601,7 +601,7 @@
         'class' => 'Torann\\GeoIP\\Services\\IPApi',
         'secure' => true,
         'key' => NULL,
-        'continent_path' => 'C:\\xampp\\htdocs\\cmsir\\storage\\app/continents.json',
+        'continent_path' => '/home/users/akhtar.khan/www/html/cmsir/storage/app/continents.json',
         'lang' => 'en',
       ),
     ),
@@ -681,7 +681,7 @@
   ),
   'log-viewer' => 
   array (
-    'storage-path' => 'C:\\xampp\\htdocs\\cmsir\\storage\\logs',
+    'storage-path' => '/home/users/akhtar.khan/www/html/cmsir/storage/logs',
     'pattern' => 
     array (
       'prefix' => 'laravel-',
@@ -766,13 +766,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'C:\\xampp\\htdocs\\cmsir\\storage\\logs/laravel.log',
+        'path' => '/home/users/akhtar.khan/www/html/cmsir/storage/logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'C:\\xampp\\htdocs\\cmsir\\storage\\logs/laravel.log',
+        'path' => '/home/users/akhtar.khan/www/html/cmsir/storage/logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -822,7 +822,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'C:\\xampp\\htdocs\\cmsir\\storage\\logs/laravel.log',
+        'path' => '/home/users/akhtar.khan/www/html/cmsir/storage/logs/laravel.log',
       ),
     ),
   ),
@@ -833,8 +833,8 @@
     'port' => '2525',
     'from' => 
     array (
-      'address' => 'support@cmsir.com',
-      'name' => 'Admin',
+      'address' => 'hello@example.com',
+      'name' => 'Laravel Starter',
     ),
     'encryption' => 'tls',
     'username' => '39856417e1e3a2',
@@ -845,7 +845,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'C:\\xampp\\htdocs\\cmsir\\resources\\views/vendor/mail',
+        0 => '/home/users/akhtar.khan/www/html/cmsir/resources/views/vendor/mail',
       ),
     ),
     'log_channel' => NULL,
@@ -1217,7 +1217,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\xampp\\htdocs\\cmsir\\storage\\framework/sessions',
+    'files' => '/home/users/akhtar.khan/www/html/cmsir/storage/framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -1226,7 +1226,7 @@
       0 => 2,
       1 => 100,
     ),
-    'cookie' => 'cmsir_session',
+    'cookie' => 'laravel_starter_session',
     'path' => '/',
     'domain' => NULL,
     'secure' => false,
@@ -1239,9 +1239,9 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\cmsir\\resources\\views',
+      0 => '/home/users/akhtar.khan/www/html/cmsir/resources/views',
     ),
-    'compiled' => 'C:\\xampp\\htdocs\\cmsir\\storage\\framework\\views',
+    'compiled' => '/home/users/akhtar.khan/www/html/cmsir/storage/framework/views',
   ),
   'self-diagnosis' => 
   array (
@@ -1266,8 +1266,8 @@
       array (
         'directories' => 
         array (
-          0 => 'C:\\xampp\\htdocs\\cmsir\\storage',
-          1 => 'C:\\xampp\\htdocs\\cmsir\\bootstrap/cache',
+          0 => '/home/users/akhtar.khan/www/html/cmsir/storage',
+          1 => '/home/users/akhtar.khan/www/html/cmsir/bootstrap/cache',
         ),
       ),
       2 => 'BeyondCode\\SelfDiagnosis\\Checks\\EnvFileExists',
@@ -1425,7 +1425,7 @@
     'include_helpers' => false,
     'helper_files' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\cmsir/vendor/laravel/framework/src/Illuminate/Support/helpers.php',
+      0 => '/home/users/akhtar.khan/www/html/cmsir/vendor/laravel/framework/src/Illuminate/Support/helpers.php',
     ),
     'model_locations' => 
     array (

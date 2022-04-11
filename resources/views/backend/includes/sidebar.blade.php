@@ -73,6 +73,43 @@
                     </a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link {{
+                        active_class(Route::is('admin/crew-info'))
+                    }}" href="#">
+                        <i class="nav-icon fas fa-file"></i>
+                        Crew Info
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link {{
+                        active_class(Route::is('admin/crew-info'))
+                    }}" href="#">
+                        <i class="nav-icon fas fa-file"></i>
+                        Crew Info
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link {{
+                        active_class(Route::is('admin/tdt'))
+                    }}" href="#">
+                        <i class="nav-icon fas fa-file"></i>
+                        TDT
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link {{
+                        active_class(Route::is('admin/crew-info'))
+                    }}" href="#">
+                        <i class="nav-icon fas fa-file"></i>
+                        Crew Info
+                    </a>
+                </li>
+
+
                 <li class="divider"></li>
 
                 <li class="nav-item">

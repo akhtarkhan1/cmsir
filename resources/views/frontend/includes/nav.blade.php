@@ -39,16 +39,16 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" href="{{route('frontend.photoGallery')}}">Photo Gallery</a>
                     <ul class="dropdown-menu" aria-labelledby="dropdown02">
-						<li><a class="dropdown-item" href="#">Loco Pilot</a></li>
-						<li><a class="dropdown-item" href="#">Assistant Loco Pilot</a></li>
-                        <li><a class="dropdown-item" href="#">Guard</a></li>
-                        <li><a class="dropdown-item" href="#">Shunters</a></li>
-                        <li><a class="dropdown-item" href="#">Train Type</a></li>
-                        <li><a class="dropdown-item" href="#">Train Parts</a></li>
+						<li><a class="dropdown-item" href="{{route('frontend.locoPilot')}}">Loco Pilot</a></li>
+						<li><a class="dropdown-item" href="{{route('frontend.assistantLocoPilot')}}">Assistant Loco Pilot</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.guard')}}">Guard</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.shunters')}}">Shunters</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.trainTypes')}}">Train Type</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.trainParts')}}">Train Parts</a></li>
 					</ul>
                 </li>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('frontend.auth.logout')}}">Logout</a></li>
                 
             @endif
             <li class="nav-item"><a class="nav-link" href="{{route('frontend.contact')}}">Contact</a></li>

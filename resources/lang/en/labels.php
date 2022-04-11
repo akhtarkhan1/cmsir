@@ -335,7 +335,7 @@ return [
         ], 
 
         'assistantPilot' => [
-            'box_title' => 'Assistant Pilot',
+            'box_title' => 'Assistant Loco Pilot',
         ], 
 
         'guards' => [
